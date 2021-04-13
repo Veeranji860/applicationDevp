@@ -8,5 +8,6 @@
         </id>
         <property name="name" column="NAME" length="20" not-null="true" unique="true"/>
         <property name="country" column="COUNTRY" length="20"/>
+        <property name="num" column="num"/>
         </class>
         </hibernate-mapping>

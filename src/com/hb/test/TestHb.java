@@ -53,17 +53,19 @@ public class TestHb {
 		//p1.setNum(2);
 		Person p3=new Person();
 		p3.setCountry("fcfv");
-		p3.setName("RR1R");
-		//p3.setNum(4);
+		p3.setName("RR2R");
+		p3.setNum(4);
 		Session session2 = sfa.openSession();
 		//Person p2=session2.get(Person.class, 2);
 		txn = session2.beginTransaction();
 		
 		//session2.saveOrUpdate(p3,p3.getId());
-		//session2.saveOrUpdate(Person.class, p3);
+		session2.saveOrUpdate(p3);
 		txn.commit();
-		//sfa.close();
+		
 		session2.close();
+
+
 		
 		
 	}

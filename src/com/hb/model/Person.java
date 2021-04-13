@@ -11,10 +11,23 @@ public class Person {
 	private int id;
 	private String country;
 	private String name;
+	private int num;
 	/**
 	 * @return the num
 	 */
 	
+	/**
+	 * @return the num
+	 */
+	public int getNum() {
+		return num;
+	}
+	/**
+	 * @param num the num to set
+	 */
+	public void setNum(int num) {
+		this.num = num;
+	}
 	/**
 	 * @return the id
 	 */
