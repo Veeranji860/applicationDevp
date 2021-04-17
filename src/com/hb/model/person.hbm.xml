@@ -4,7 +4,7 @@
         <hibernate-mapping>
         <class name="com.hb.model.Person" table="PERSON" dynamic-update="true">
         <id name ="id" column="ID" >
-        <generator class="increment"></generator>
+        <generator class="sequence"/>
         </id>
         <property name="name" column="NAME" length="20" not-null="true" unique="true"/>
         <property name="country" column="COUNTRY" length="20"/>

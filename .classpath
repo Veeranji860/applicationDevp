@@ -25,5 +25,6 @@
 	<classpathentry kind="lib" path="D:/hibernate-release-5.4.30.Final/hibernate-release-5.4.30.Final/lib/required/stax-ex-1.8.jar"/>
 	<classpathentry kind="lib" path="D:/hibernate-release-5.4.30.Final/hibernate-release-5.4.30.Final/lib/required/txw2-2.3.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/davul/.m2/repository/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/davul/Downloads/ojdbc8-19.8.0.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
